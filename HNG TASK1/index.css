@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: lawngreen;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+
+}
+.firstsec{
+    display: block;
+    width: 90%;
+    height: 600px;
+    
+    border-radius: 2px;
+    flex-wrap: wrap;
+}
+.info{
+    width: 99%;
+    height: 100px;
+    max-height: 350px;
+    
+    align-items: end;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+h2{
+    align-self: center;
+}
+.profile{
+    height: 98px;
+    width: 120px;
+    
+    background-image:url(./AKBF7189.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: lawngreen;
+    color: black;
+    cursor: pointer;
+}
+@media screen and (max-width:1052px){
+.move{margin-top: 100px;}
+}
+@media screen and (max-width:680px){
+.move{margin-top: 150px;}
+}
+@media screen and (max-width:470px){
+.move{margin-top: 250px;}
+}
+.big{
+    color: white;
+    font-weight: bolder;
+}
+    
